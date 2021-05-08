@@ -1,4 +1,8 @@
 @echo off
+rem ---------------------------------------------------------------------------------
+rem This batch sets virtualbox permission to enable the softlink of the windows share
+rem written by: [i]carreno
+rem ---------------------------------------------------------------------------------
 set batchname=%~nx0
 set vboxpath=%1
 set vmname=%2
